@@ -9,6 +9,6 @@ pattern, going from LSB to MSB of the bottom row and multiplying with each numbe
 we add up all numbers and since addition is communicative, the order in which we add the numbers doesn't matter.
 For the LSB LED, we give it an input of A1B1 as in multiplication, if another term is added below, we add a zero so 
 the answer for the column just comes out to A1B1. The same logic is applied for the second adder. The summation
-and Cout is then carried into the next adder to add with the ongoing addition. The final adder finally outputs the rest of the LEDS
-As seen in the schematic, that is exactly what we do, and then add the summation into the B input of the next adder
-as addition is communicative. 
+and Cout is then carried into the next adder to add with the ongoing addition. The final adder finally outputs
+the rest of the LEDS with Cout of the last adder being the MSB.
+
