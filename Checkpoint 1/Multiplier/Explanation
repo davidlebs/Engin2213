@@ -3,3 +3,7 @@ TinkerCAD Link: https://www.tinkercad.com/things/0AATe8rBNMQ-unsigned-multiplier
 The circuit shown in this folder is a 4-bit unsigned multiplier.
 
 The circuit is derived from the idea of binary multiplication and the fact that addition is communicative.
+In binary multiplication, we take the LSB (least significant bit) of the bottom row and multiply it with the 
+top row going from LSB to MSB (most signifcant bit) like in decimal multiplication. We then continue on with this 
+pattern, going from LSB to MSB of the bottom row and multiplying with each number of the top row. At the end,
+we add up all numbers and since addition is communicative, the order in which we add the numbers doesn't matter.
