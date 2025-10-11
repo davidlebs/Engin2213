@@ -1,3 +1,5 @@
 TinkerCAD Link: https://www.tinkercad.com/things/0AATe8rBNMQ-unsigned-multiplier-portfolio-1/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard
 
+The circuit shown in this folder is a 4-bit unsigned multiplier.
 
+The circuit is derived from the idea of binary multiplication and the fact that addition is communicative.
