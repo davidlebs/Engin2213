@@ -7,4 +7,4 @@ and wiring it with the correct input on the adder chip (A4 from dipswitch to A4 
 This gives us the addition summation in binary format.
 
 Moving on to the subtraction aspect, the circuit simply adds a negative number (A + (-B)). This is done with the use of an XOR chip as the truth table alligns with our goals.
-The truth table of an XOR chip is ![image alt](https://github.com/davidlebs/Engin2213/blob/main/Checkpoint%201/Adder-Subtractor/XOR%20Truth%20Table.webp?raw=true)
+The truth table of an XOR chip is ![image alt](https://github.com/davidlebs/Engin2213/blob/b42580b4087a1fe8b08747722f78da5e3c2ad3ce/Checkpoint%201/Adder-Subtractor/XOR%20Truth%20Table.webp)
