@@ -11,4 +11,3 @@ For the LSB LED, we give it an input of A1B1 as in multiplication, if another te
 the answer for the column just comes out to A1B1. The same logic is applied for the second adder. The summation
 and Cout is then carried into the next adder to add with the ongoing addition. The final adder finally outputs
 the rest of the LEDS with Cout of the last adder being the MSB.
-
