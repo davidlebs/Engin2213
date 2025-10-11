@@ -7,4 +7,11 @@ and wiring it with the correct input on the adder chip (A4 from dipswitch to A4 
 This gives us the addition summation in binary format.
 
 Moving on to the subtraction aspect, the circuit simply adds a negative number (A + (-B)). This is done with the use of an XOR chip as the truth table alligns with our goals.
-The truth table of an XOR chip is ![image alt](https://github.com/davidlebs/Engin2213/blob/b42580b4087a1fe8b08747722f78da5e3c2ad3ce/Checkpoint%201/Adder-Subtractor/XOR%20Truth%20Table.webp)
+The truth table of an XOR chip is (XOR Truth Table.webp). 
+Changing the variables of A and B to Switch and B respectively, we see how whenever the switch is off,
+B acts as B, meaning when B is 0 the output is 0 and when B is 1 the output is 1.
+When the switch is on, it acts as an inverter, flipping B's value. 
+The switch is also connected to Cin of the adder chip, basically adding a value of 1 when the switch is on. 
+This therefore acts as flipping the number into its negative component, and then the addition is carried out as previously stated. 
+
+The overflow logic is derived from the truth table 
