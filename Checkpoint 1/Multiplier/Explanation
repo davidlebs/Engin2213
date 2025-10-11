@@ -7,5 +7,8 @@ In binary multiplication, we take the LSB (least significant bit) of the bottom 
 top row going from LSB to MSB (most signifcant bit) like in decimal multiplication. We then continue on with this 
 pattern, going from LSB to MSB of the bottom row and multiplying with each number of the top row. At the end,
 we add up all numbers and since addition is communicative, the order in which we add the numbers doesn't matter.
+For the LSB LED, we give it an input of A1B1 as in multiplication, if another term is added below, we add a zero so 
+the answer for the column just comes out to A1B1. The same logic is applied for the second adder. The summation
+and Cout is then carried into the next adder to add with the ongoing addition. The final adder finally outputs the rest of the LEDS
 As seen in the schematic, that is exactly what we do, and then add the summation into the B input of the next adder
 as addition is communicative. 
