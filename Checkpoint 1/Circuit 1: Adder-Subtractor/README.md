@@ -19,3 +19,5 @@ In 2's complement, whenver A4 and B4 both equal 0, and S4 equals 1, this means t
 add up to a negative number. The opposite is true as well, where if both A4 and B4 are equal to 1, and S4 is equal to 0, then there is 
 an overflow. From this we are able to derive an equation of F = A'B'S + ABS' (A is A4, B is B4, and S is S4). Using this derivation, 
 we can implement it into our circuit using a NOT, AND, and OR chips. 
+
+<img width="1440" height="1920" alt="image" src="https://github.com/user-attachments/assets/87f84d20-3df8-4551-9af2-f9839f42b759" />
