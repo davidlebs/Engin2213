@@ -20,4 +20,13 @@ add up to a negative number. The opposite is true as well, where if both A4 and 
 an overflow. From this we are able to derive an equation of F = A'B'S + ABS' (A is A4, B is B4, and S is S4). Using this derivation, 
 we can implement it into our circuit using a NOT, AND, and OR chips. 
 
+1000 - 1001 = 1111 (-8 - -7 = -1)
 <img width="1440" height="1920" alt="image" src="https://github.com/user-attachments/assets/87f84d20-3df8-4551-9af2-f9839f42b759" />
+<img width="1440" height="1920" alt="image" src="https://github.com/user-attachments/assets/1de56b0a-ef19-4575-af6a-2414b624b335" />
+<img width="1440" height="1920" alt="image" src="https://github.com/user-attachments/assets/2f0e481d-3456-4ca2-95e1-98b69de34672" />
+
+1001 + 1001 = Overflow (-7 + -7 //Outside the bounds of 4 bits)
+<img width="1920" height="1440" alt="image" src="https://github.com/user-attachments/assets/f533b1bb-9bea-4c95-9d91-a6e9bd6c8698" />
+
+0001 - 0001 = 0000 (1 - 1 = 0)
+<img width="1920" height="1440" alt="image" src="https://github.com/user-attachments/assets/e9fd798a-4351-4326-b5c6-b6eba21832e3" />
