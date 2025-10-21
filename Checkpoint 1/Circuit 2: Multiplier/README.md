@@ -12,7 +12,7 @@ We see how whenever B1 is 0, the output of any sum is always going to be 0. If B
 This pattern continues down to B4. At the end, we add up all numbers and since addition is communicative, 
 the order in which we add the numbers doesn't matter. For the LSB LED, we give it an input of A1B1 as in 
 multiplication, if another term is added below, we add a zero so the answer for the column just comes out to A1B1. 
-The same logic is applied for the second adder. The summationand Cout is then carried into the next adder 
+The same logic is applied for the second adder. The summation and Cout is then carried into the next adder 
 to add with the ongoing addition. The final adder finally outputs the rest of the LEDS with Cout of the 
 last adder being the MSB.
 
