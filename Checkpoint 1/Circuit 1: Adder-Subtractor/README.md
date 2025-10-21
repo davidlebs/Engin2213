@@ -8,6 +8,7 @@ This gives us the addition summation in binary format.
 
 Moving on to the subtraction aspect, the circuit simply adds a negative number (A + (-B)). This is done with the use of an XOR chip as the truth table alligns with our goals.
 The truth table of an XOR chip is 
+
 <img width="245" height="176" alt="image" src="https://github.com/user-attachments/assets/3831234d-b4d8-43d6-ba6d-c175542a8cca" />
 (XOR Truth Table.webp). 
 Changing the variables of A and B to Switch and B respectively, we see how whenever the switch is off,
