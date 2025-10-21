@@ -10,6 +10,7 @@ Moving on to the subtraction aspect, the circuit simply adds a negative number (
 The truth table of an XOR chip is 
 
 <img width="245" height="176" alt="image" src="https://github.com/user-attachments/assets/3831234d-b4d8-43d6-ba6d-c175542a8cca" />
+
 (XOR Truth Table.webp). 
 Changing the variables of A and B to Switch and B respectively, we see how whenever the switch is off,
 B acts as B, meaning when B is 0 the output is 0 and when B is 1 the output is 1.
