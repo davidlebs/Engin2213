@@ -17,7 +17,10 @@ When the switch is on, it acts as an inverter, flipping B's value.
 The switch is also connected to Cin of the adder chip, basically adding a value of 1 when the switch is on. 
 This therefore acts as flipping the number into its negative component, and then the addition is carried out as previously stated. 
 
-The overflow logic is derived from the truth table using A4, B4, and S4. The truth table is seen in (Overflow Logic.png).
+The overflow logic is derived from the truth table using A4, B4, and S4. The truth table is seen in 
+
+<img width="327" height="188" alt="image" src="https://github.com/user-attachments/assets/40e14db7-8e1d-4693-bf49-dcbbdfa5981e" />(Overflow Logic.png)
+
 In 2's complement, whenver A4 and B4 both equal 0, and S4 equals 1, this means there is an overflow because 2 positive numbers can't ever 
 add up to a negative number. The opposite is true as well, where if both A4 and B4 are equal to 1, and S4 is equal to 0, then there is 
 an overflow. From this we are able to derive an equation of F = A'B'S + ABS' (A is A4, B is B4, and S is S4). Using this derivation, 
