@@ -7,7 +7,9 @@ and wiring it with the correct input on the adder chip (A4 from dipswitch to A4 
 This gives us the addition summation in binary format.
 
 Moving on to the subtraction aspect, the circuit simply adds a negative number (A + (-B)). This is done with the use of an XOR chip as the truth table alligns with our goals.
-The truth table of an XOR chip is (XOR Truth Table.webp). 
+The truth table of an XOR chip is 
+<img width="245" height="176" alt="image" src="https://github.com/user-attachments/assets/3831234d-b4d8-43d6-ba6d-c175542a8cca" />
+(XOR Truth Table.webp). 
 Changing the variables of A and B to Switch and B respectively, we see how whenever the switch is off,
 B acts as B, meaning when B is 0 the output is 0 and when B is 1 the output is 1.
 When the switch is on, it acts as an inverter, flipping B's value. 
