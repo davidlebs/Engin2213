@@ -1,5 +1,3 @@
-TinkerCAD Link: https://www.tinkercad.com/things/0AATe8rBNMQ-unsigned-multiplier-portfolio-1/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard
-
 The circuit shown in this folder is a 4-bit unsigned multiplier.
 
 The circuit is derived from the idea of binary multiplication and the fact that addition is communicative.
@@ -18,5 +16,11 @@ The same logic is applied for the second adder. The summationand Cout is then ca
 to add with the ongoing addition. The final adder finally outputs the rest of the LEDS with Cout of the 
 last adder being the MSB.
 
+KiCAD Schematic:
+<img width="1096" height="999" alt="image" src="https://github.com/user-attachments/assets/94c95a93-6e1e-450a-a6df-d9eef8a0b388" />
+
 TinkerCAD Design:
 <img width="1518" height="936" alt="image" src="https://github.com/user-attachments/assets/9932191b-7fd1-49ca-a444-2669c200ad7d" />
+
+TinkerCAD Link: 
+https://www.tinkercad.com/things/0AATe8rBNMQ-unsigned-multiplier-portfolio-1/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard
