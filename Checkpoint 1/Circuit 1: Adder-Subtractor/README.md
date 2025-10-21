@@ -6,6 +6,8 @@ Tackling the adding component first, this circuit adds by using a simple adder c
 and wiring it with the correct input on the adder chip (A4 from dipswitch to A4 on adder chip and so on). 
 This gives us the addition summation in binary format.
 
+
+
 Moving on to the subtraction aspect, the circuit simply adds a negative number (A + (-B)). This is done with the use of an XOR chip as the truth table alligns with our goals.
 The truth table of an XOR chip is 
 
@@ -17,6 +19,8 @@ When the switch is on, it acts as an inverter, flipping B's value.
 The switch is also connected to Cin of the adder chip, basically adding a value of 1 when the switch is on. 
 This therefore acts as flipping the number into its negative component, and then the addition is carried out as previously stated. 
 
+
+
 The overflow logic is derived from the truth table using A4, B4, and S4. The truth table is seen in 
 
 <img width="327" height="188" alt="image" src="https://github.com/user-attachments/assets/40e14db7-8e1d-4693-bf49-dcbbdfa5981e" />(Overflow Logic.png)
@@ -24,7 +28,9 @@ The overflow logic is derived from the truth table using A4, B4, and S4. The tru
 In 2's complement, whenver A4 and B4 both equal 0, and S4 equals 1, this means there is an overflow because 2 positive numbers can't ever 
 add up to a negative number. The opposite is true as well, where if both A4 and B4 are equal to 1, and S4 is equal to 0, then there is 
 an overflow. From this we are able to derive an equation of F = A'B'S + ABS' (A is A4, B is B4, and S is S4). Using this derivation, 
-we can implement it into our circuit using a NOT, AND, and OR chips. 
+we can implement it into our circuit using a NOT, AND, and OR chips. This overflow logic of 2's complement works for both addition 
+and subtraction because we are technically adding a negative number, not trully subtracting. As a result, it is still addition and
+the 2's complement overflow logic works.
 
 1000 - 1001 = 1111 (-8 - -7 = -1)
 <img width="1440" height="1920" alt="image" src="https://github.com/user-attachments/assets/87f84d20-3df8-4551-9af2-f9839f42b759" />
