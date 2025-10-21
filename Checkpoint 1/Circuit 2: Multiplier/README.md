@@ -17,3 +17,6 @@ multiplication, if another term is added below, we add a zero so the answer for 
 The same logic is applied for the second adder. The summationand Cout is then carried into the next adder 
 to add with the ongoing addition. The final adder finally outputs the rest of the LEDS with Cout of the 
 last adder being the MSB.
+
+TinkerCAD Design:
+<img width="1518" height="936" alt="image" src="https://github.com/user-attachments/assets/9932191b-7fd1-49ca-a444-2669c200ad7d" />
