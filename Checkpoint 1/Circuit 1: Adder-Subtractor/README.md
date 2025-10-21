@@ -1,5 +1,3 @@
-TinkerCAD Link: https://www.tinkercad.com/things/jkgjS5CNosi-2s-adder-subtractor-w-overflow-portfolio-1/editel?returnTo=%2Fthings%2FjkgjS5CNosi-2s-adder-subtractor-w-overflow-portfolio-1
-
 The circuit shown in this folder is a 4-bit 2's complement adder-subtractor with an overflow LED. 
 
 Tackling the adding component first, this circuit adds by using a simple adder chip (74LS283) and taking each input (A4-A1 and B4-B1) 
@@ -46,3 +44,9 @@ Circuit Pictures:
 
 KiCAD Circuit Schematic:
 <img width="1090" height="749" alt="image" src="https://github.com/user-attachments/assets/9187a303-f09b-4f5d-8a11-41f214ed020a" />
+
+TinkerCAD Design:
+https://github.com/davidlebs/Engin2213/blob/main/Checkpoint%201/Circuit%201:%20Adder-Subtractor/TinkerCAD%20Screenshot.png?raw=true
+
+TinkerCAD Link: 
+https://www.tinkercad.com/things/jkgjS5CNosi-2s-adder-subtractor-w-overflow-portfolio-1/editel?returnTo=%2Fthings%2FjkgjS5CNosi-2s-adder-subtractor-w-overflow-portfolio-1
