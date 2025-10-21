@@ -32,6 +32,7 @@ we can implement it into our circuit using a NOT, AND, and OR chips. This overfl
 and subtraction because we are technically adding a negative number, not trully subtracting. As a result, it is still addition and
 the 2's complement overflow logic works.
 
+Circuit Pictures:
 1000 - 1001 = 1111 (-8 - -7 = -1)
 <img width="1440" height="1920" alt="image" src="https://github.com/user-attachments/assets/87f84d20-3df8-4551-9af2-f9839f42b759" />
 <img width="1440" height="1920" alt="image" src="https://github.com/user-attachments/assets/1de56b0a-ef19-4575-af6a-2414b624b335" />
@@ -42,3 +43,6 @@ the 2's complement overflow logic works.
 
 0001 - 0001 = 0000 (1 - 1 = 0)
 <img width="1920" height="1440" alt="image" src="https://github.com/user-attachments/assets/e9fd798a-4351-4326-b5c6-b6eba21832e3" />
+
+KiCAD Circuit Schematic:
+<img width="1090" height="749" alt="image" src="https://github.com/user-attachments/assets/9187a303-f09b-4f5d-8a11-41f214ed020a" />
