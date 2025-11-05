@@ -9,4 +9,4 @@ the inverted version of B is sent through and the switch signal to the Cin (like
 
 The overflow logic uses a 4 to 1 MUX instead because we need two enable pins, the S4 and A4 (or B4 instead of A4). 
 
-PS. I'm still working on the overflow logic and trying to implement
+PS. I'm still working on the overflow logic and trying to implement it correctly.
