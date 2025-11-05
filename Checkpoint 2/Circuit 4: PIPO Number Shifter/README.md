@@ -3,4 +3,5 @@ Comparator, and Adder to shift positions by plus or minus 1. For the design proj
 the xy-plane while being able to detect colisions. This circuit does this but only in 1 direction and only for collisions with the border 
 (0 and 9 in this situation). 
 
-From the very begining, we use a push button to send a signal to shift left and right
+From the very begining, we use a push button to send a signal to shift either in the left or right direction. The direction is decided by 
+switch, shifting left when there is an input of 0 and shifting right when there is an input of 1.
