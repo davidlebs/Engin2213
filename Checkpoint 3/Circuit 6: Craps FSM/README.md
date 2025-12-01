@@ -9,4 +9,4 @@ The dice are both represented through the use of a counter counting from 1 to 6.
 starts at 0, counts to 1 up to 6, and after 6 reverts back to 1. To adjust this, we use the preset pins
 to preset the counters automatically to 1 whenever the dice are reset. The reset function is taken from the FSM.
 
-<img width="383" height="668" alt="image" src="https://github.com/user-attachments/assets/24e00f2b-9e85-4cf9-9e8e-d7709b6b54fe" /> (XOR Truth Table.webp)
+<img width="383" height="668" alt="image" src="https://github.com/user-attachments/assets/24e00f2b-9e85-4cf9-9e8e-d7709b6b54fe" /> (Counter Logic.jpg)
