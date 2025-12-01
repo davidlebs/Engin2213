@@ -28,6 +28,9 @@ This image reiterates the way the game is played and goes more into depth of how
 
 This flowchart is then used to create the FSM Diagram which then can be used to design a FSM Table. 
 
+<img width="855" height="853" alt="image" src="https://github.com/user-attachments/assets/5e4eabea-e398-4469-bb04-7fd45e4ab54e" /> (State Map.jpg)
+
+
 <img width="1079" height="475" alt="image" src="https://github.com/user-attachments/assets/ab8b6f54-42a8-4e28-8666-fcf1580ea586" /> (Truth Table.png)
 
 Our FSM consists of 9 inputs and 7 outputs. We then have to solve for A, B, C of the next state as well as the win, lose
@@ -38,3 +41,7 @@ roll, and store output. The subsequent simplifications are listed below.
 Using these expressions, we are able to implement it into our circuit, finally completing it. Quickly reitering previously stated points, our 
 reset not only resets the FSM but also our clocks, our store button clocks our register chip and stores our points, and our roll button enables 
 our clocks so the dice can give a random output. 
+
+<img width="2311" height="1007" alt="image" src="https://github.com/user-attachments/assets/20f87bee-ad6e-420a-840b-225295cda6cf" />
+(CircuitVerse Screenshot.jpg)
+Link: https://circuitverse.org/simulator/embed/craps
