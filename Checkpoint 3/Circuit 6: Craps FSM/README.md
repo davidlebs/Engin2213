@@ -8,5 +8,22 @@ The game is then reset and the player starts again.
 The dice are both represented through the use of a counter counting from 1 to 6. In reality, the counter actually
 starts at 0, counts to 1 up to 6, and after 6 reverts back to 1. To adjust this, we use the preset pins
 to preset the counters automatically to 1 whenever the dice are reset. The reset function is taken from the FSM.
+Then, a Binary Coded Decimal (BCD) to 7 Segment Display Decoder is used to display the dice numbers on an LED Display.
 
 <img width="383" height="668" alt="image" src="https://github.com/user-attachments/assets/24e00f2b-9e85-4cf9-9e8e-d7709b6b54fe" /> (Counter Logic.jpg)
+
+These two numbers are then added together through the use of a Adder Chip and the value is decoded
+(through the useof a 4 to 16 decoder) and sent to the FSM logic.
+
+The sum of these numbers also has a connection to a point register (PIPO Register) and a comparator chip. 
+Whenever the first roll isn't equal to 2, 3, 12, 7, or 11, a store signal is sent to the point register (connected
+to the clock of the PIPO Register) and that value is then stored. On the next roll, if that number is equal to the 
+number stored in the register, an equivelncy signal is sent and the player wins. If the number is equal to a 7, that player loses, and if that number is equal to anything else, the player keeps rerolling (as explained in the begining).
+
+Onto the FSM logic, a flowchart was built to simplify the way the game is played. 
+
+<img width="333" height="540" alt="image" src="https://github.com/user-attachments/assets/1030bfdc-8337-4b7b-aa0d-d8eff91f9afc" /> (Flowchart.jpg)
+
+This image reiterates the way the game is played and goes more into depth of how the circuit checks each component.
+
+This flowchart is then used to create the FSM Diagram which was used to 
