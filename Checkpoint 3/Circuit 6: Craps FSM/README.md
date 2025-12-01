@@ -26,4 +26,5 @@ Onto the FSM logic, a flowchart was built to simplify the way the game is played
 
 This image reiterates the way the game is played and goes more into depth of how the circuit checks each component.
 
-This flowchart is then used to create the FSM Diagram which was used to 
+This flowchart is then used to create the FSM Diagram which then can be used to design a FSM Table. Instead of creating
+a FSM table, we can make a 
