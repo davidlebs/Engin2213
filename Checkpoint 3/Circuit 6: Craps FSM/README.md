@@ -26,5 +26,15 @@ Onto the FSM logic, a flowchart was built to simplify the way the game is played
 
 This image reiterates the way the game is played and goes more into depth of how the circuit checks each component.
 
-This flowchart is then used to create the FSM Diagram which then can be used to design a FSM Table. Instead of creating
-a FSM table, we can make a 
+This flowchart is then used to create the FSM Diagram which then can be used to design a FSM Table. 
+
+<img width="1079" height="475" alt="image" src="https://github.com/user-attachments/assets/ab8b6f54-42a8-4e28-8666-fcf1580ea586" /> (Truth Table.png)
+
+Our FSM consists of 9 inputs and 7 outputs. We then have to solve for A, B, C of the next state as well as the win, lose
+roll, and store output. The subsequent simplifications are listed below. 
+
+<img width="561" height="227" alt="image" src="https://github.com/user-attachments/assets/2677db59-77c2-4396-b57d-6a7ad60549d9" /> (Simplification.jpg)
+
+Using these expressions, we are able to implement it into our circuit, finally completing it. Quickly reitering previously stated points, our 
+reset not only resets the FSM but also our clocks, our store button clocks our register chip and stores our points, and our roll button enables 
+our clocks so the dice can give a random output. 
