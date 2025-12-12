@@ -57,4 +57,10 @@ circuit and was able to type letters into the keyboard and get an output on the 
 
 (Keyboard.jpg)
 
-I also had other subcircuits in my project which will now be discussed. An adder / subtractor was used 
+I had one other subcircuit in this project which will now be discussed. A BCD to 7SD w/ Hex was used to show the hex value of the ASCII character
+on top of the already shown binary output. This circuit was derived the same way as the 16SD was. I first wrote out each input in 4 bits, where
+0000 was 0 and 1111 was F. I then wrote down which segment should light up for each binary input. 
+
+<img width="676" height="676" alt="image" src="https://github.com/user-attachments/assets/651fe9bf-a7f4-4c05-86b5-e97b9ada1870" />
+
+(BCD to 7SD.jpg)
