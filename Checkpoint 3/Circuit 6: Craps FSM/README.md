@@ -48,23 +48,34 @@ Link: https://circuitverse.org/simulator/embed/craps
 
 The simulation also includes multiple sub-circuits. One of those being an Adder / Subtractor who's derivation and explanation is in 
 checkpoint 1 / circuit 1.
+<img width="621" height="357" alt="image" src="https://github.com/user-attachments/assets/0a2d4c55-b850-4d21-8df2-0f39b387c132" />
+(Adder Subtractor.jpg)
 
 I also have a BCD to 7 Segment Display. This circuit is derived from looking at when each LED should be on. For example,
 the top segment A, should turn on for 0, 2, 3, 5, 6, 7, 8, and 9. For these numbers, a 1 is sent to turn on the LED, and for the rest of the
 numbers, a 0 is sent to keep the LED off. Doing this for each segment and each number, you can derive the expression. This topic is further 
 discussed in checkpoint 3, circuit 8. 
+<img width="663" height="1086" alt="image" src="https://github.com/user-attachments/assets/9911ff82-512e-45ea-bbac-5cdbf500d2b5" />
+(BCD to 7SD.jpg)
 
 We also have a 4 to 16 decoder which is built by taking each combination of the inputs and inputs inverted. As seen in the circuit,
 we see this labelled on the outputs. Then whenever a signal is sent, only that output will be enabled because it matches that sequence of numbers.
 
+
 A comparator chip was also built by comparing each bit to its respective counterpart. We compare the MSB first, and if A>B, we know that A is
 greater than B and vice versa. This process is then continued for each bit all the way to the LSB. If each bit is equal to one another, then 
 we know A=B. 
+<img width="966" height="810" alt="image" src="https://github.com/user-attachments/assets/7c096729-3256-4539-9297-fc726340eee2" />
+(Comparator.jpg)
 
 A 4 to 1 mux was bulit from having 2 enable bits and their inverse. Like the decoder, we then make each combination using 3 input and gates, 
 where only one gate is activated at a time, and the third input is for the signal which is going to be sent through, a 0 or a 1. 
+<img width="552" height="501" alt="image" src="https://github.com/user-attachments/assets/1828a645-8063-4b33-b973-200269d0ea05" />
+(MUX.jpg)
 
 Lastly, a universal shift register was built by using D flip-flops and 4 to 1 muxs. We have 2 enable bits to selct the mode, either 
 hold (00), shift right (01), shift left (10), or load data (11). The mux then sends the proper signal through depending on which
 enable bits are selected, and using the D flip-flops, we can store the data and then either hold, shift, or load data in. A clear button
 is connected to the D flip-flops premade clear pin, as well as a clock button to clock the D flip-flops.
+<img width="1090" height="1094" alt="image" src="https://github.com/user-attachments/assets/8ef424f0-c4e9-4174-96c8-64eb5b48f8ce" /> 
+(Universale Shift Register.jpg)
