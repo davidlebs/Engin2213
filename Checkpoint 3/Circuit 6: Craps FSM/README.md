@@ -60,7 +60,8 @@ discussed in checkpoint 3, circuit 8.
 
 We also have a 4 to 16 decoder which is built by taking each combination of the inputs and inputs inverted. As seen in the circuit,
 we see this labelled on the outputs. Then whenever a signal is sent, only that output will be enabled because it matches that sequence of numbers.
-
+<img width="1282" height="949" alt="image" src="https://github.com/user-attachments/assets/25dbeec9-a35a-486b-99d4-4c5a2c10b351" />
+(Decoder.jpg)
 
 A comparator chip was also built by comparing each bit to its respective counterpart. We compare the MSB first, and if A>B, we know that A is
 greater than B and vice versa. This process is then continued for each bit all the way to the LSB. If each bit is equal to one another, then 
