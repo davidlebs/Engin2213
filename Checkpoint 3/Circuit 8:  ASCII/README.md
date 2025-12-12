@@ -24,3 +24,35 @@ for each segment.
 <img width="277" height="352" alt="image" src="https://github.com/user-attachments/assets/c8eaaf63-43b2-4f37-81b7-e7c8556cabad" />
 
 (Variable Settings.jpg)
+
+Now that we have each segment's expression, we can start implementing this on CircuitVerse.
+
+<img width="2224" height="1018" alt="image" src="https://github.com/user-attachments/assets/05b31eb7-de4f-4faa-a855-5c9aec5dfcde" />
+
+(BCD to 16SD PT.1.jpg)
+
+<img width="2336" height="966" alt="image" src="https://github.com/user-attachments/assets/466a12e2-fdf9-4d49-a2a1-df9fed90ad4b" />
+
+(BCD to 16SD PT.2.jpg)
+
+Now that we have our BCD to 16SD built, we can start messing around with it and start making designs. One idea I had was to use a 32 to 5 priority 
+encoder to select each letter. Since the ASCII code is a byte long, this wouldn't be possible, but because the first 3 msb are constant (always 010) 
+we are only change the last 5, and since we got 26 letters this fits perfectly in our situation. The unused inputs are then grounded so 
+they don't interfere with our seleciton. 
+
+<img width="1094" height="815" alt="image" src="https://github.com/user-attachments/assets/263524f3-253a-4444-ac8f-9c300da2e45a" />
+
+(Priority Encoder.jpg)
+
+We now have a circuit where you can select a letter, with Z being msb and having priority, which outputs the binary value, the hex value, and the 
+ASCII character. 
+
+Messing around with the circuit, I also wanted to see if you could type the letters and get an output on the 16SD. Knowing that CircuitVerse has
+a keyboard, I started messing around with that to see how it funcitons. I connected an output box to the ASCII Output pin and got an error
+requiring a bitwidth of 7. Applying the changes, I tried again with capital A and got "1000001". I did this with a few more letters and 
+realized that the output was just the ASCII binary code which I used to built my previous components. I then connected up the keyboard to the 
+circuit and was able to type letters into the keyboard and get an output on the display.
+
+<img width="619" height="759" alt="image" src="https://github.com/user-attachments/assets/dfc19254-cfab-42ea-a1d6-9b6cbf642d7b" />
+
+(Keyboard.jpg)
