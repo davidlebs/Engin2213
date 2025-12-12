@@ -34,6 +34,7 @@ Now that we have each segment's expression, we can start implementing this on Ci
 <img width="2336" height="966" alt="image" src="https://github.com/user-attachments/assets/466a12e2-fdf9-4d49-a2a1-df9fed90ad4b" />
 
 (BCD to 16SD PT.2.jpg)
+Link: https://circuitverse.org/simulator/embed/hex-to-ascii
 
 Now that we have our BCD to 16SD built, we can start messing around with it and start making designs. One idea I had was to use a 32 to 5 priority 
 encoder to select each letter. Since the ASCII code is a byte long, this wouldn't be possible, but because the first 3 msb are constant (always 010) 
