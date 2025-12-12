@@ -26,4 +26,9 @@ to 4 HEX characters and coded the eprom.
 
 *If you would like a closer look at the data, head over to Eprom Data.csv in checkpoint 3 / circuit 7*
 
-![IMG_7776](https://github.com/user-attachments/assets/b34253d0-b854-498f-8e2f-d4d76d1a8924)
+![IMG_7776](https://github.com/user-attachments/assets/28e153f5-41e4-4282-8209-12204d858099)
+![IMG_7777](https://github.com/user-attachments/assets/e82039a2-283c-4d90-b47d-f8bd40b2b74c)
+![IMG_7778](https://github.com/user-attachments/assets/3daebc16-0e51-49fa-842d-b2fcaecddd57)
+![IMG_7779](https://github.com/user-attachments/assets/7d99d9f3-90a4-4884-9a0b-82d23b8152f7)
+
+(IMG_7776.jpg to IMG_7779.jpg respectively)
