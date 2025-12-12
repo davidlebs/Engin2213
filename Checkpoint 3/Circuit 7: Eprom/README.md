@@ -14,8 +14,8 @@ for the hundreds place. When building the circuit, instead of using 3 decoders a
 the 1's and 10's place. For the hundred's place, I used a LED instead and this was possible due to the fact that the binary was the same for both
 a 7SD and LED. Q12 was then used for my primes, and since Q15 to Q13 weren't used, we don't care about their value. I then converted the 4 nibbles 
 to 4 HEX characters and coded the eprom.  
-<img width="466" height="827" alt="image" src="https://github.com/user-attachments/assets/4d6fff66-142c-4be6-b821-65e3e7780383" />
 
+<img width="466" height="827" alt="image" src="https://github.com/user-attachments/assets/4d6fff66-142c-4be6-b821-65e3e7780383" />
 (27C1024.png)
 
 <img width="1628" height="1121" alt="image" src="https://github.com/user-attachments/assets/de997f01-5837-4641-ac40-17189694bed3" />
