@@ -52,7 +52,8 @@ Messing around with the circuit, I also wanted to see if you could type the lett
 a keyboard, I started messing around with that to see how it funcitons. I connected an output box to the ASCII Output pin and got an error
 requiring a bitwidth of 7. Applying the changes, I tried again with capital A and got "1000001". I did this with a few more letters and 
 realized that the output was just the ASCII binary code which I used to built my previous components. I then connected up the keyboard to the 
-circuit and was able to type letters into the keyboard and get an output on the display.
+circuit and was able to type letters into the keyboard and get an output on the display. If you would like to view a video demonstration
+head over to Checkpoint 3 / Circuit 8 / IMG_7804.mp4 and download the video.
 
 <img width="619" height="759" alt="image" src="https://github.com/user-attachments/assets/dfc19254-cfab-42ea-a1d6-9b6cbf642d7b" />
 
