@@ -16,6 +16,7 @@ a 7SD and LED. Q12 was then used for my primes, and since Q15 to Q13 weren't use
 to 4 HEX characters and coded the eprom.  
 
 <img width="466" height="827" alt="image" src="https://github.com/user-attachments/assets/4d6fff66-142c-4be6-b821-65e3e7780383" />
+
 (27C1024.png)
 
 <img width="1628" height="1121" alt="image" src="https://github.com/user-attachments/assets/de997f01-5837-4641-ac40-17189694bed3" />
