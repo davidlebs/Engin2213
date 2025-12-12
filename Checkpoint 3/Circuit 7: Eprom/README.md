@@ -3,6 +3,7 @@ by writting out each number in binary and setting the MSB as A and LSB as G. A i
 to show which numbers are prime and which ones aren't. For example, 0 and 1 had the prime light not turn on, but 2, 3, and 5 did. Using these binary 
 numbers, I then decoded the HEX value for each and coded the eprom using the software XGPRO. These outputs were then each sent to an LED to show what 
 number is selected and if its prime or not.
+
 <img width="231" height="827" alt="image" src="https://github.com/user-attachments/assets/d07601b5-1b80-4339-a918-34cb8fa29f66" />
 (27C64.png)
 
