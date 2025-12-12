@@ -24,5 +24,6 @@ to 4 HEX characters and coded the eprom.
 
 (KiCAD Screenshot.jpg)
 
-
 *If you would like a closer look at the data, head over to Eprom Data.csv in checkpoint 3 / circuit 7*
+
+![IMG_7776](https://github.com/user-attachments/assets/b34253d0-b854-498f-8e2f-d4d76d1a8924)
