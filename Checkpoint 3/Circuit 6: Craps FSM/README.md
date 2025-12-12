@@ -45,3 +45,6 @@ our clocks so the dice can give a random output.
 <img width="2311" height="1007" alt="image" src="https://github.com/user-attachments/assets/20f87bee-ad6e-420a-840b-225295cda6cf" />
 (CircuitVerse Screenshot.jpg)
 Link: https://circuitverse.org/simulator/embed/craps
+
+The simulation also includes multiple sub-circuits. One of those being an Adder / Subtractor who's derivation and explanation is in 
+checkpoint 1, 
