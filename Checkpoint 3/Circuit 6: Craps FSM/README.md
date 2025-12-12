@@ -11,6 +11,7 @@ to preset the counters automatically to 1 whenever the dice are reset. The reset
 Then, a Binary Coded Decimal (BCD) to 7 Segment Display Decoder is used to display the dice numbers on an LED Display.
 
 <img width="383" height="668" alt="image" src="https://github.com/user-attachments/assets/24e00f2b-9e85-4cf9-9e8e-d7709b6b54fe" /> 
+
 (Counter Logic.jpg)
 
 These two numbers are then added together through the use of a Adder Chip and the value is decoded
