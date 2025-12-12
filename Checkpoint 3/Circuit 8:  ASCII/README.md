@@ -56,3 +56,5 @@ circuit and was able to type letters into the keyboard and get an output on the 
 <img width="619" height="759" alt="image" src="https://github.com/user-attachments/assets/dfc19254-cfab-42ea-a1d6-9b6cbf642d7b" />
 
 (Keyboard.jpg)
+
+I also had other subcircuits in my project which will now be discussed. An adder / subtractor was used 
